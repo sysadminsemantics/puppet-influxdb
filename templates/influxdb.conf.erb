@@ -5,7 +5,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
@@ -21,7 +21,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
@@ -40,7 +40,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
@@ -56,7 +56,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
@@ -71,7 +71,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
@@ -81,7 +81,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
@@ -96,7 +96,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
@@ -113,7 +113,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 ###
@@ -126,8 +126,8 @@
 <% graphite_section.sort_by{|key, value| key}.each do |key, value| %><%
   if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float) || value.is_a?(Array)
   %>  <%= key %> = <%= value %><%
-  else 
-  %>  <%= key %> = "<%= value %>"<% 
+  else
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 <% end %>
@@ -143,7 +143,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
@@ -158,7 +158,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
@@ -173,7 +173,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
@@ -185,7 +185,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
@@ -200,7 +200,7 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
@@ -216,28 +216,30 @@
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
 ###
 ### [snapshot]
 ###
+[snapshot]
 <% @snapshot_section.sort_by{|key, value| key}.each do |key, value| %><%
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
 
 ###
 ### [subscriber]
 ###
+[subscriber]
 <% @subscriber_section.sort_by{|key, value| key}.each do |key, value| %><%
     if ( value =~ /^[\d]+$/ ) || value.is_a?(Integer) || value.is_a?(TrueClass) || value.is_a?(FalseClass) || value.is_a?(Float)
   %>  <%= key %> = <%= value %><%
     else
-  %>  <%= key %> = "<%= value %>"<% 
+  %>  <%= key %> = "<%= value %>"<%
   end %>
 <% end %>
